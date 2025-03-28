@@ -2,81 +2,53 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bielefeld Parfüme – Luxusdüfte im März</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bielefeld Parfüme – Start</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #111; }
-    header { background: #111; color: #fff; padding: 2rem 1rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2rem; }
-    header p { font-size: 1.1rem; margin-top: 0.5rem; }
-    .banner { background: #ffe9dc; color: #c00; font-weight: bold; text-align: center; padding: 1rem; font-size: 1.1rem; }
-    .produkte { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 2rem; }
-    .produkt { background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05); padding: 1rem; text-align: center; }
-    .produkt img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 0.5rem; }
-    .produkt h2 { font-size: 1.1rem; margin: 0.5rem 0; }
-    .produkt p { font-size: 0.9rem; color: #333; margin-bottom: 0.5rem; }
-    .preis { font-size: 1.2rem; font-weight: bold; color: #000; margin-bottom: 0.5rem; }
-    .whatsapp-btn { background: #25D366; color: white; padding: 0.6rem 1rem; border: none; border-radius: 5px; text-decoration: none; display: inline-block; font-weight: bold; margin-top: 0.5rem; }
-    .kontakt { background: #fff; text-align: center; padding: 2rem 1rem; margin-top: 2rem; }
-    .kontakt a { background: #000; color: #fff; padding: 0.7rem 1.4rem; text-decoration: none; border-radius: 5px; font-weight: bold; }
-    footer { background: #111; color: #ccc; font-size: 0.85rem; text-align: center; padding: 1rem; margin-top: 2rem; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #111; }
+    header, nav, footer { background: #000; color: #fff; text-align: center; padding: 1em; }
+    nav a { color: #fff; margin: 0 1em; text-decoration: none; font-weight: bold; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2em; padding: 2em; }
+    .card { background: #f8f8f8; border-radius: 8px; padding: 1em; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card img { max-width: 100%; border-radius: 6px; }
+    .card h2 { font-size: 1.1em; margin: 0.5em 0; }
+    .card p { margin: 0.3em 0; }
+    .card a { display: inline-block; margin-top: 0.5em; background: #000; color: #fff; padding: 0.5em 1em; border-radius: 5px; text-decoration: none; }
+    .card a:hover { background: #444; }
+    footer { font-size: 0.8em; color: #ccc; }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Bielefeld Parfüme</h1>
-    <p>Luxus-Düfte für 90€ – exklusiv im März!</p>
+    <p>Luxusdüfte – März-Angebot: Jeder Duft nur 90 €</p>
   </header>
 
-  <div class="banner">
-    Expressversand 1–2 Tage | DHL 6,99€ | Abholung in Bielefeld möglich
-  </div>
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
 
-  <section class="produkte">
-    <div class="produkt">
-      <img src="https://i.imgur.com/IT8D5jP.jpeg" alt="Xerjoff Accento">
+  <main class="grid">
+    <div class="card">
+      <img src="images/xerjoff-accento.jpg" alt="Xerjoff Accento">
       <h2>Xerjoff Accento</h2>
-      <p>Fruchtig, frisch & elegant.</p>
-      <div class="preis">90€</div>
-      <a class="whatsapp-btn" href="https://www.instagram.com/bielefeld.parfueme" target="_blank">Jetzt anfragen</a>
+      <p><s>120 €</s> <strong>90 €</strong></p>
+      <a href="produkte/xerjoff-accento.html">Jetzt ansehen</a>
     </div>
-    <div class="produkt">
-      <img src="https://i.imgur.com/hN6gxVf.jpeg" alt="Tom Ford Lost Cherry">
-      <h2>Tom Ford Lost Cherry</h2>
-      <p>Kirsche, Mandel & Vanille – verführerisch.</p>
-      <div class="preis">90€</div>
-      <a class="whatsapp-btn" href="https://www.instagram.com/bielefeld.parfueme" target="_blank">Jetzt anfragen</a>
-    </div>
-    <div class="produkt">
-      <img src="https://i.imgur.com/L7jZ4Uv.jpeg" alt="Baccarat Rouge 540">
+    <div class="card">
+      <img src="images/baccarat-rouge-540.jpg" alt="Baccarat Rouge 540">
       <h2>Baccarat Rouge 540</h2>
-      <p>Süß, luxuriös & sehr beliebt.</p>
-      <div class="preis">90€</div>
-      <a class="whatsapp-btn" href="https://www.instagram.com/bielefeld.parfueme" target="_blank">Jetzt anfragen</a>
+      <p><s>120 €</s> <strong>90 €</strong></p>
+      <a href="produkte/baccarat-rouge-540.html">Jetzt ansehen</a>
     </div>
-    <div class="produkt">
-      <img src="https://i.imgur.com/PIe6v4D.jpeg" alt="Parfums de Marly Layton">
-      <h2>Parfums de Marly Layton</h2>
-      <p>Warm, würzig & langanhaltend.</p>
-      <div class="preis">90€</div>
-      <a class="whatsapp-btn" href="https://www.instagram.com/bielefeld.parfueme" target="_blank">Jetzt anfragen</a>
-    </div>
-    <div class="produkt">
-      <img src="https://i.imgur.com/8oFgI7K.jpeg" alt="Ombre Nomade">
-      <h2>Ombre Nomade</h2>
-      <p>Starkes Oud mit Tiefe & Klasse.</p>
-      <div class="preis">90€</div>
-      <a class="whatsapp-btn" href="https://www.instagram.com/bielefeld.parfueme" target="_blank">Jetzt anfragen</a>
-    </div>
-  </section>
-
-  <div class="kontakt">
-    <h2>Du hast Fragen oder möchtest direkt bestellen?</h2>
-    <a href="https://www.instagram.com/bielefeld.parfueme" target="_blank">Instagram kontaktieren</a>
-  </div>
+    <!-- Weitere Produkte hier einfügen -->
+  </main>
 
   <footer>
-    &copy; 2025 Bielefeld Parfüme – Alle Rechte vorbehalten. Keine Rückgabe. Lieferung erfolgt geprüft & sicher.
+    <p>&copy; 2025 Bielefeld Parfüme – Versand in 1–2 Tagen | Bezahlung per PayPal, Überweisung oder Krypto</p>
   </footer>
+
 </body>
 </html>

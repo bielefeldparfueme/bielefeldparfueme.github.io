@@ -1,1 +1,105 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><title>Bielefeld Parfüme</title></head><body><h1>Bielefeld Parfüme</h1></body></html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bielefeld Parfüme</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .produkte {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .produkt {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 1rem;
+      text-align: center;
+    }
+    .produkt img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .produkt h2 {
+      margin: 0.5rem 0 0.2rem;
+      font-size: 1.1rem;
+      color: #ffd700;
+    }
+    .preis {
+      font-weight: bold;
+      color: #90ee90;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 1rem;
+      background-color: #fff;
+      color: #000;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bielefeld Parfüme</h1>
+    <p>Luxusdüfte im März-Angebot für nur <strong>90€</strong></p>
+  </header>
+
+  <section class="produkte">
+    <div class="produkt">
+      <img src="baccarat-rouge-540.jpg" alt="Baccarat Rouge 540">
+      <h2>Baccarat Rouge 540</h2>
+      <p class="preis">90€</p>
+      <a class="button" href="produkte/baccarat-rouge-540.html">Details</a>
+    </div>
+    <div class="produkt">
+      <img src="layton.jpg" alt="Parfums de Marly Layton">
+      <h2>Layton</h2>
+      <p class="preis">90€</p>
+      <a class="button" href="produkte/layton.html">Details</a>
+    </div>
+    <div class="produkt">
+      <img src="ombre-nomade.jpg" alt="LV Ombre Nomade">
+      <h2>Ombre Nomade</h2>
+      <p class="preis">90€</p>
+      <a class="button" href="produkte/ombre-nomade.html">Details</a>
+    </div>
+    <div class="produkt">
+      <img src="produkte/xerjoff-accento.jpg" alt="Xerjoff Accento">
+      <h2>Xerjoff Accento</h2>
+      <p class="preis">90€</p>
+      <a class="button" href="produkte/xerjoff-accento.html">Details</a>
+    </div>
+  </section>
+
+  <footer>
+    Kontakt über <a href="https://instagram.com/bielefeld.parfueme" style="color:#ffd700">Instagram</a> oder per E-Mail
+  </footer>
+</body>
+</html>
